@@ -1,9 +1,7 @@
 ## PORTFOLIO
 
----
+_Owner : Preeti Ranjan Singh_
 
-_Owner :_ `Preeti Ranjan Singh`
+_Description : Porfolio of Preeti Ranjan designed and created using ReactJs framework, along with material-ui for styling._
 
-_Description :_ Porfolio of Preeti Ranjan designed and created using ReactJs framework, along with material-ui for styling.
-
-_link of website :_ https://preeti-ranjan-907.web.app/
+_link of website : https://preeti-ranjan-907.web.app/_
