@@ -44,7 +44,7 @@ export const cards = [
         "id": "/resume",
         "title": "Resume",
         "content": "Download resume",
-        "image": "/resume.png",
+        "image": "/resume.jpg",
         "component": ""
     }
 ]

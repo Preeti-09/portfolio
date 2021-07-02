@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import React, { useState, useEffect } from 'react'
-import { CircularProgress } from '@material-ui/core'
 
 import IMAGES from './images'
 import Main from './components/Main/Main'
 import MainCard from './components/MainCard/MainCard'
+import Loading from './components/Loading/Loading'
 
 function App() {
   //eslint-disable-next-line
@@ -20,7 +20,7 @@ function App() {
         loadImg.onload = () =>
           setTimeout(() => {
             resolve(image.url)
-          }, 5000)
+          }, 1900)
 
         loadImg.onerror = err => reject(err)
       })
@@ -40,8 +40,9 @@ function App() {
             <Route exact path="/:id" render={(props) => <MainCard {...props} />} />
           </Switch>
         </Router>
-        : <h1 style={{ color: "#fff", textShadow: "2px 3px 4px #000" }}> <CircularProgress /> Loading.... </h1>
+        : <Loading />
       }
+
     </>
   );
 }

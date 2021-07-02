@@ -7,25 +7,25 @@ const items = [
     {
         "title": "Social Media Website",
         "content": "MERN tech stack project used to share photos with others. Uses Google Auth for authentication and login purposes.",
-        "image": "/project3.png",
+        "image": "/project3.jpg",
         "githubLink": "https://github.com/Preeti-09/memories",
     },
     {
         "title": "WebChat",
         "githubLink": "https://github.com/Preeti-09/webchat",
-        "image": "/project2.png",
+        "image": "/project2.jpg",
         "content": "Chatting web application using chat engine and react.",
     },
     {
         "title": "NetJobs",
         "githubLink": "https://github.com/Vaibhav3009/JobPortal",
-        "image": "/project4.png",
+        "image": "/project4.jpg",
         "content": "Django web app that uses real-time web scraping to display job posts based on user's preference.",
     },
     {
         "title": "MiniGames",
         "githubLink": "https://github.com/Preeti-09/miniGames",
-        "image": "/project1.png",
+        "image": "/project1.jpg",
         "content": "Color Game and Tic-tac-toe website using ReactJs",
     },
 ]

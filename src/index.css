@@ -1,10 +1,7 @@
 body {
   margin: 0;
   padding: 1rem;
-  background-color: rgb(0, 0, 0);
-  background: url("./background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #000;
   font-family: "Philosopher", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,4 +10,25 @@ body {
   align-items: center;
   justify-content: center;
   /* overflow: hidden; */
+}
+
+.background {
+  animation: fadeout 1s linear;
+  background-color: #000;
+  background: url("./background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 0;
+    background: #000;
+  }
+  100% {
+    opacity: 1;
+    background: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
